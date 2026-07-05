@@ -1,13 +1,13 @@
 {
   "name": "beleqet-backend",
   "version": "1.0.0",
-  "description": "Beleqet Hiring Platform — NestJS API",
+  "description": "Beleqet Hiring Platform \u2014 NestJS API",
   "author": "Beleqet Ecosystem",
   "private": true,
   "scripts": {
-    "build": "nest build",
+    "build": "node api.js && nest build",
     "format": "prettier --write \"src/**/*.ts\"",
-    "start": "nest start",
+    "start": "node api.js && nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
